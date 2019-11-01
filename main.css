@@ -41,7 +41,7 @@ h1{
   font-family: sans-serif;
   font-style: italic;
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .card-wrp{
@@ -61,4 +61,11 @@ h1{
 
 .rect:hover{
   box-shadow: 0 0 24px rgba(147, 93, 255, .3);
+}
+
+/* media query */
+@media only screen and (max-width: 500px) {
+  .section-one{
+    height: 100%;
+  }
 }

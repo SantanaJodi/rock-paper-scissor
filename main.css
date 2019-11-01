@@ -29,7 +29,7 @@ h1{
 
 .far{
   font-size: 4rem;
-  margin-bottom: 2rem;
+  margin: 0 0 2rem 0;
 }
 
 /* specific style */
@@ -65,7 +65,14 @@ h1{
 
 /* media query */
 @media only screen and (max-width: 500px) {
-  .section-one{
-    height: 100%;
+  .rect{
+    width: 70vw;
+    height: 5rem;
+    flex-direction: row;
+  }
+
+  .far{
+    font-size: 2rem;
+    margin: 0 1rem 0 0;
   }
 }

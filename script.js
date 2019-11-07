@@ -19,7 +19,7 @@ function button(pick, unpickA, unpickB){
   document.getElementById('button').style.display='block';
 
   console.log('Math shows ' + cPick);
-  console.log('Computer choose ' + comp);
+  console.log('Computer choose ' + compP);
 
   var comp = document.getElementById('comp');
   var juri = document.getElementById('juri');

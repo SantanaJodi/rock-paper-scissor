@@ -14,20 +14,26 @@
         <h1>PICK YOUR CARD</h1>
       </div>
       <div class="card-wrp flex-center">
-        <div class="rect flex-center-column" id="rock" onclick="rock()" id="rock">
+        <div class="rect flex-center-column" id="rock" onclick="button('rock', 'paper', 'scissor')">
           <i class="far fa-hand-rock"></i>
           <p>ROCK</p>
         </div>
-        <div class="rect flex-center-column" id="paper" onclick="paper()">
+        <div class="rect flex-center-column" id="paper" onclick="button('paper', 'rock', 'scissor')">
           <i class="far fa-hand-paper"></i>
           <p>PAPER</p>
         </div>
-        <div class="rect flex-center-column" id="scissor" onclick="scissor()">
+        <div class="rect flex-center-column" id="scissor" onclick="button('scissor', 'rock', 'paper')">
           <i class="far fa-hand-scissors"></i>
           <p>SCISSOR</p>
         </div>
         <div id="test"></div>
       </div>
+      <div id="resPlace">"The result will be shown here!"</div>
+      <div id="result">
+        The computer randomly choose <span id="comp">Test</span>
+        <br> The game result is <span id="juri">Test</span>
+      </div>
+      <button type="button" name="button" id="button" onclick="reload()">Play Again</button>
     </div>
   </body>
   <script src="script.js" charset="utf-8"></script>

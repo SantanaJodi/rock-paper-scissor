@@ -69,7 +69,7 @@ button{
   box-shadow: 0 0 12px rgba(0, 0, 0, .3);
   margin: 2rem;
   color: #935dff;
-  transition: 1s;
+  transition: box-shadow 1s;
 }
 
 .rect:hover{
@@ -101,5 +101,9 @@ button{
   .far{
     font-size: 2rem;
     margin: 0 1rem 0 0;
+  }
+
+  button{
+    margin: 2rem;
   }
 }

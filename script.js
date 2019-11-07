@@ -10,7 +10,7 @@ function button(pick, unpickA, unpickB){
     compP = 'scissor';
   }
 
-  document.getElementById('picky').style.innerHTML='YOU CHOOSE';
+  document.getElementById('picky').innerHTML='YOU PICK';
   document.getElementById(pick).style.backgroundColor='#fafafa';
   document.getElementById(pick).onclick='none';
   document.getElementById(unpickA).style.cssText='opacity: 0; display: none';

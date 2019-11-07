@@ -66,7 +66,7 @@ button{
   background-color: #28272a;
   width: 10rem;
   height: 14rem;
-  box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, .3);
   margin: 2rem;
   color: #935dff;
   transition: box-shadow 1s;
@@ -89,6 +89,10 @@ button{
 #result #comp, #result #juri{
   color: #ec1f7f;
 }
+
+/* #paper, #scissor{
+  position: absolute;
+} */
 
 /* media query */
 @media only screen and (max-width: 500px) {
